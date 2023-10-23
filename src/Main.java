@@ -1,7 +1,16 @@
 
-import java.util
+import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
+        Scanner scanner=new Scanner(System.in);
+
+        System.out.println("Introduce un super numero broooo: ");
+        int numero=scanner.nextInt();
+
+        System.out.println("Introduce una super cadena: ");
+        String numero=scanner.nextLine();
+
+
 
         //con el scanner cogeis un numero entero positivo y una cadena
 

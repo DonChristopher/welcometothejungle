@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
-        System.out.println("Introduce un super numero broooo: ");
+        System.out.println("Introduce un super numero broooo:");
         int numero=scanner.nextInt();
 
-        System.out.println("Introduce una super cadena: ");
+        System.out.println("Introduce una super cadena:");
         String numero=scanner.nextLine();
 
 

@@ -1,6 +1,7 @@
 
 import java.util.Scanner;
 public class Main {
+
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
 
@@ -8,7 +9,8 @@ public class Main {
         int numero=scanner.nextInt();
 
         System.out.println("Introduce una super cadena:");
-        String numero=scanner.nextLine();
+        String cadena=scanner.nextLine();
+
 
 
 
@@ -16,6 +18,20 @@ public class Main {
 
 
         //Ver si el string es palomo
+        String str = "", reverseStr = "";
+
+        int strLength = str.length();
+
+        for (int i = (strLength - 1); i >=0; --i) {
+            reverseStr = reverseStr + str.charAt(i);
+        }
+
+        if (str.toLowerCase().equals(reverseStr.toLowerCase())) {
+            System.out.println(str + " is a Palindrome String.");
+        }
+        else {
+            System.out.println(str + " is not a Palindrome String.");
+        }
 
         //Ver si el numero es mi hermano
 

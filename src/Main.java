@@ -8,7 +8,7 @@ public class Main {
         int numero=scanner.nextInt();
 
         System.out.println("Introduce una super cadena:");
-        String numero=scanner.nextLine();
+        String cadena=scanner.nextLine();
 
 
 
@@ -17,14 +17,27 @@ public class Main {
 
         //Ver si el string es palomo
 
-        //Ver si el numero es mi hermano
+
+                //Ver si el numero es mi hermano
+
 
         //Ver cuantas mayus tiene el grillete
+
 
         //Si no es ja primo factorizarlo chacho
 
 
         //Mostrar el tamaño de la cadena perpetua
+
+
+
+
+
+            int tamaño= cadena.lenght();
+
+        System.out.println("El tamaño del texto que has introducido Amado usuario es: "+tamaño);
+
+
 
 
 

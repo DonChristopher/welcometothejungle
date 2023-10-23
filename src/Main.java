@@ -21,6 +21,7 @@ public class Main {
         String str = "", reverseStr = "";
 
         int strLength = str.length();
+        if (cadena.isEmpty()) { cadena = scanner.nextLine(); }
 
         for (int i = (strLength - 1); i >=0; --i) {
             reverseStr = reverseStr + str.charAt(i);
